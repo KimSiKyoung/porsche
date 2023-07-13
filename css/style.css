@@ -133,7 +133,8 @@ nav .dep1>.sub {
 }
 nav .dep1>.sub .dep2 {
   float: left;
-  margin-right: 100px;
+  margin-left: 90px;
+  margin-right: 50px;
   width: 250px;
   margin-bottom: 10px;
   /* background-color: violet; */
