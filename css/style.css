@@ -131,15 +131,16 @@ nav .dep1>.sub {
   text-align: left;
   margin: 0 auto;
 }
-nav .dep1>.sub> .dep2_wrap .dep2 {
+nav .dep1>.sub .dep2 {
   float: left;
-  margin-right: 20px;
+  margin-right: 100px;
   width: 250px;
   margin-bottom: 10px;
   /* background-color: violet; */
 }
 
-nav .dep1>.sub> .dep2_wrap .dep2 >a{
+
+nav .dep1>.sub .dep2 >a{
   font-size: 14px;
   font-weight: bold;  
   display: block;
