@@ -60,7 +60,7 @@ header{
     height: 80px;
 }
 #header_wrap{ 
-  width: 1920px;
+  width: 100vw;
   height: 80px;
   margin: 0 auto;
   position: relative;
@@ -259,13 +259,13 @@ section{
     height: 4170px;
 }
 /* 스와이퍼 크기 */
-.swiper{
-  width: 1920px;
+/* .swiper{
+  width: 100vw;
   height: 738px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-}
+} */
 
 /* 스와이퍼 버튼 */
 .swiper-button-prev,
@@ -320,8 +320,10 @@ section{
 }
 /* 배너 공통 텍스트 부분 */
 .swiper{
-  width: 1920px;
+  width: 100vw;
   position: relative;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .swiper-slide p{
@@ -332,7 +334,7 @@ section{
 }
 
 .swiper-slide a > img{
-  width: 1920px;
+  width: 100%;
 }
 
 .swiper-slide p:hover{
@@ -359,16 +361,15 @@ section{
 /* 모델 시작 */
 #model_wrap{
   width: 100%;
-  height: 1085px;
 }
 .model{
-  width: 1920px;
+  width: 100vw;
   height: 1100px;
   margin: 0 auto;
 }
 
 .model h2{
-  width: 1820px;
+  width: 100%;
   height: 130px;
   line-height: 130px;
   font-size: 50px;
@@ -378,7 +379,7 @@ section{
   padding-left: 120px;
 }
 .model .box{
-  width: 640px;
+  width: 33.3333%;
   height: 540px;
   float: left;
   position: relative;
@@ -449,7 +450,7 @@ section{
 
 /* 포르쉐 인증 중고차 찾기 */
 #content1_wrap{
-  width: 100%;
+  width: 100vw;
   height: 550px;
   margin-top: 160px;
 }
@@ -474,9 +475,12 @@ section{
   margin: 0 auto;
   overflow: hidden;
   height: 500px;
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: 30px;
+
 }
+
+
 #brandVisual ul{
   position: relative;
   float: left;
@@ -504,8 +508,8 @@ section{
 /* 텍스트 */
 .cont_box{
   float: left;
-  margin-right: 5px;
 }
+
 
 .cont_box .slide_text {
   display: block;
@@ -543,44 +547,17 @@ section{
 
 .btnImg .next{
   position: absolute;
-  right: 50px;
+  right: 100px;
   cursor: pointer;
 }
 
 
-/* 동그라미 버튼 */
-#buttonList::after{
-  content: '';
-  display: block;
-  clear: both;
-}
 
-#buttonList li{
-  background: url(../images/btnVisual1.png) 0 -16px; 
-  width: 14px;
-  height: 15px;
-  float: left;
-  position: relative;
-  left: 50%;
-  top: -85px;
-  overflow: hidden;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-#buttonList li a {
-  display: block; 
-  text-indent: -99999px;
-}
-
-#buttonList li.on{
-  background-position: 0 0; /* 활성화 된 버튼 */
-}
 
 /* 아티클2  */
 
 #content2_wrap{
-  width: 100%;
+  width: 100vw;
   height: 470px;
   margin-top: 30px;
 }
